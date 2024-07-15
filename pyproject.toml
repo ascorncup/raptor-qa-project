@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "raptor-qa-project"
+version = "0.1.0"
+description = "RAPTOR-QA: Recursive Abstractive Processing for Textbook-Oriented Retrieval and Question Answering"
+authors = ["Arjun S Pramod <arjunspramod@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nltk = "^3.8"
+gensim = "^4.3"
+transformers = "^4.30"
+PyPDF2 = "^3.0"
+pyserini = "^0.21"
+sentence-transformers = "^2.2"
+pymilvus = "^2.3"
+streamlit = "^1.25"
+gradio = "^3.40"
+torch = {version = "^2.0", platform = "linux"}
+torchvision = {version = "^0.15", platform = "linux"}
+torchaudio = {version = "^2.0", platform = "linux"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
